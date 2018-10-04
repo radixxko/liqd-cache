@@ -110,4 +110,14 @@ describe('- cache', function()
 
 		setTimeout( done, 250 );
 	});
+
+	it('should not trigger expire', function( done )
+	{
+		let cache = new Cache();
+
+		cache.set('foo', 'bar', 1000, assert.fail );
+		cache.delete('foo', false);
+
+		setTimeout( done, 250 );
+	});
 });

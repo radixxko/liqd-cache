@@ -1,7 +1,7 @@
 {
   "name": "liqd-cache",
   "description": "Cache Library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "radixxko",
   "license": "MIT",
   "main": "lib/cache.js",
@@ -24,7 +24,7 @@
     "liqd-timer": "^1.0.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.2",
     "mocha": "^5.0.4",
     "nyc": "^11.6.0"
   }
